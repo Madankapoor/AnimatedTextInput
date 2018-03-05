@@ -177,7 +177,7 @@ open class AnimatedTextInput: UIControl {
     fileprivate var isResigningResponder = false
     fileprivate var isPlaceholderAsHint = false
     fileprivate var hasCounterLabel = false
-    fileprivate var textInput: TextInput!
+    public var textInput: TextInput!
     fileprivate var lineToBottomConstraint: NSLayoutConstraint!
     fileprivate var textInputTrailingConstraint: NSLayoutConstraint!
     fileprivate var disclosureViewWidthConstraint: NSLayoutConstraint!
