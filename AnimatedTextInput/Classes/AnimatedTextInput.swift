@@ -291,6 +291,7 @@ open class AnimatedTextInput: UIControl {
         textInput.view.tintColor = style.activeColor
         textInput.textColor = style.textInputFontColor
         textInput.font = style.textInputFont
+        textInput.keyboardType=UIKeyboardTypeASCIICapable;
         textInput.view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(textInput.view)
         invalidateIntrinsicContentSize()
